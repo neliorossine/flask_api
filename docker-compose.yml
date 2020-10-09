@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  api_flask_restful:
+    container_name: api_flask_restful
+    build:
+      context: .
+    volumes:
+      - .:/code
+    environment:
+      - PYTHONUNBUFFERED=0
+    ports:
+      - 5000:5000
+    networks:
+      - flask
+
+networks:
+  flask:
