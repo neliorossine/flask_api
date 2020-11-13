@@ -4,7 +4,7 @@ Projeto de API RESTFUL desenvolvido em Python 3.7.5
 
 ### Tecnologias Utilizadas:
 
- - Flask,
+ - Flask
  - Docker 
  - SQLite3
  - SQLAlchemy 
